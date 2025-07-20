@@ -55,7 +55,7 @@ The following table shows the mapping between the module’s top-level I/O signa
 | ...            | ...       |
 | resetb         | PIN_AJ4   |
 
-👉 For the complete list of pin assignments, refer to the [pin_mapping.xlsx](./pin_mapping.xlsx) file included in the repository.
+👉 For the complete list of pin assignments, refer to the [pin_mapping.xlsx](./PinsMapping.csv) file included in the repository.
 
 ---
 
