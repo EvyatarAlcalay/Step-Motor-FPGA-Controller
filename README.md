@@ -46,17 +46,16 @@ To run this project on hardware, you will need:
 
 ## FPGA Pin Mapping
 
-| Signal             | FPGA Pin Resource |
-|--------------------|-------------------|
-| `clk`              | PIN_AB12          |
-| `reset_n`          | PIN_Y16           |
-| `sw[3:0]`          | PIN_W16, W15, AB17, AB16 |
-| `key[3:0]`         | PIN_AA14, AA15, AB13, AB14 |
-| `hex0[6:0]`        | PIN_AC23, AD24, AE24, AC24, AD23, AE23, AF23 |
-| `hex1[6:0]`        | PIN_AF22, AE22, AE21, AD22, AD21, AC22, AC21 |
-| `motor_out[3:0]`   | PIN_AG17, AH17, AG18, AH18 |
+The following table shows the mapping between the module’s top-level I/O signals and the physical FPGA pins.
 
-> If using DE10-Nano or similar boards, you can use the default constraints file (.qsf) to assign pins accordingly.
+| Signal         | FPGA Pin |
+|----------------|-----------|
+| pulses_out[0]  | PIN_W15   |
+| pulses_out[1]  | PIN_AK2   |
+| ...            | ...       |
+| resetb         | PIN_AJ4   |
+
+👉 For the complete list of pin assignments, refer to the [pin_mapping.xlsx](./pin_mapping.xlsx) file included in the repository.
 
 ---
 
